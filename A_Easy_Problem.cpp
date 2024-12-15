@@ -4,16 +4,12 @@
 using namespace std;
 
 int main(){
-    int a[3],i,t;
+    int t,n;
     cin>>t;
     while(t--){
-         for(i=0; i<3; i++){
-        cin>>a[i];
+        cin>>n;
+        cout<<n-1<<endl;
+        
     }
-    sort(a,a+3);
-    cout<<a[1]<<endl;
-    
-    }
-   
     return 0;
 }
